@@ -1,0 +1,40 @@
+h1.headline2 {
+	font-size: 6em;
+	font-family: "GrifoL-Bold","Georgia",serif;
+	text-align: left;
+	color: white;
+	position: relative;
+	top: 20px; 
+}
+
+body{background-color: #557574;}
+28641c
+body{color:white;}
+
+
+h3.{color:black;}
+
+
+
+
+.figcaption {color: black;} 
+
+
+
+
+.subhead2 {
+		margin-top: 0px;
+
+}
+
+a {color: #F78181;}
+
+.byline {
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+figure{
+	margin-left: 0;
+
+}
