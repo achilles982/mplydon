@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html>
+
+
 	<head>
 		<title>Starting Points</title>
 
@@ -80,10 +82,69 @@
 		<p class="bodyText">Overall, activist groups come about when groups are tired of being unheard and unseen.  You can only have faith and follow the rules for so long before you must take drastic actions.  
 		
 	</p>
-	
-	</body>
 
 	<img src="https://miro.medium.com/max/500/1*4zezQ1Y0xIKIwu88Ra5fHQ.png">
 
+	
+
+	<button id="myButton" class="float-left submit-button" >Click Me!</button>
+
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://www.bostonchamber.com/public-policy/priorities/";
+    };
+</script>
+
+
+<script type="text/javascript">
+function validateEmail(theForm) {
+if (/^w+([.-]?w+)*@w+([.-]?w+)*(.w{2,3})+$/.test(theForm.email-id.value)){
+return(true);
+}
+alert("Invalid e-mail address! Please enter again carefully!.");
+return(false);
+}
+</script>
+
+<p>Feel free to enter your email address below to stay updated with new content and events happening with our page!</p>
+<form onSubmit="return validateEmail(this);" action="">
+E-mail Address:
+<input type="text" name="emailid" />
+<input type="submit" value="Submit" />
+<input type="reset" value="Reset" />
+</form>
+	
+	</body>
+
+	
+
+	<div id="container"></div>
+	<script src="https://cdn.anychart.com/releases/v8/js/anychart-core.min.js"></script> <script src="https://cdn.anychart.com/releases/v8/js/anychart-sankey.min.js"></script>
+
+
 	<h2>Michael Lydon</h2>
+
+
+<script type="text/javascript" src="hilitor.js"></script>
+<script type="text/javascript">
+
+  var myHilitor = new Hilitor("content"); // id of the element to parse
+  myHilitor.apply("highlight words");
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </html>
+
